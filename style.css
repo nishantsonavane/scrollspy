@@ -27,6 +27,7 @@ body {
     padding: 15px 0;
     align-items: center;
     color: #000;
+    margin: 0;
 }
 
 .logo img {
@@ -49,12 +50,19 @@ body {
 .banner {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     text-align: center;
     padding: 0 10px;
     min-height: 100vh;
     border-bottom: 1px solid #ddd;
     position: relative;
+    height: 100%;
+}
+
+.banner-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .banner-inner-div {
@@ -232,6 +240,11 @@ p {
     position: absolute;
     align-items: center;
     justify-content: center;
+}
+
+.nav-bookmarks-wrapper svg {
+    width: 24px;
+    height: 24px;
 }
 
 .nav-bookmarks-left {
